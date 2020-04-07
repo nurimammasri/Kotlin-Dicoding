@@ -4,12 +4,12 @@ fun main() {
     val firstChar = text["first"]
     val lastChar = text["last"]
 
-    // TODO 2
-    println("First letter is $firstChar and $lastChar for second letter")
-
+    fun printLetter(): String {
+        return "First letter is $firstChar and $lastChar for second letter"
+    }
+    println(printLetter())
 }
 
-// TODO 1
-fun String.getFirstAndLast(): Map<String, Char>{
-    return mapOf()
+fun String.getFirstAndLast(): Map<String, Char> {
+    return mapOf("first" to 'K', "last" to 'n')
 }

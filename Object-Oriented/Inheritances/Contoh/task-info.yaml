@@ -39,5 +39,8 @@ files:
         dicodingCat.sleep()
     }
   learner_created: false
-status: Unchecked
+- name: src/Cat.kt
+  visible: true
+  learner_created: true
+status: Solved
 record: -1
